@@ -6,7 +6,7 @@ int main() {
     int d = 7;
 
   //logical AND operators using
-    printf("%d \n", a<b && c<d);
+    printf("%d \n", a<b || c<d);
     return 0;
 }
 
