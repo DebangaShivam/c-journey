@@ -1,12 +1,12 @@
 #include <stdio.h>
 int main() {
-    int a = 4;
-    int b = 5;
-    int c = 9;
-    int d = 7;
+    int number;
+    printf("enter a number:");
+    scanf("%d",&number);
+    printf("cube of number is: %d\n",number*number*number);
+    
 
-  //logical AND operators using
-    printf("%d \n", a<b || c<d);
+    
     return 0;
 }
 
