@@ -2,7 +2,7 @@
 
 int main() {
  int marks ;
- printf("Enter marks: ");
+ printf("Enter marks: ");   //marks apss fail over100
     scanf("%d", &marks);
 
 
