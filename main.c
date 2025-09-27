@@ -1,28 +1,24 @@
 #include <stdio.h>
 
 int main() {
- int number;
- printf("Enter number: ");
-    scanf("%d", &number);
+ int marks ;
+ printf("Enter marks: ");
+    scanf("%d", &marks);
 
 
-if (number>0) {
-    printf("popasitive\n");
-     if (number %2 ==0) {
-        printf("even \n");
+    if(marks >=0 && marks <= 30) {
+        printf("fail \n");
     }
-    else{
-        printf("odd\n");
-    }
-
-
-              } 
-              else { 
-                printf("negative \n");
-              }
-
-
     
+    else if (marks >30 && marks <=100){
+        printf("pass \n");
+    }
+
+    else { 
+        printf("over100 \n");
+    }
+
+
 return 0;       
     
 }
