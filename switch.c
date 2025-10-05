@@ -16,8 +16,10 @@ int main() {
         printf("Uppercase boy \n");
     }
 
-    else ("not an english letter \n");
-}
+    else {
+        printf("not an english letter \n");
+    }
+
 
 return 0;
-
+}
